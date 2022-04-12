@@ -1,0 +1,68 @@
+body{
+    font: "Lucida Console";
+    list-style-type: none;
+    background-image: url("../images/findDriver.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+.navBar ul {
+  list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #252422;
+    display: flex;
+   
+  }
+  
+  .navBar li {
+    float: left;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #F7F7F7;
+    width:20%;
+
+    font: "Lucida Console";
+  }
+  
+  .navBar a {
+    font: "Lucida Console";
+    display: block;
+    color: #F7F7F7;
+    text-align: center;
+    margin-top: 10px;
+    padding: 3% 3%;
+    text-decoration: none;
+   
+  }
+/*
+  #select{
+    display: none;
+  }
+  #button2 {
+    display: none;
+  }
+  #p{
+    display: none;
+  }
+  */
+  #ride{
+    display: none;
+  }
+  #search{
+    list-style-type: none;
+    display: block;
+    text-align: center;
+    background-color: #252422;
+    width: 50%;
+    margin: auto;
+    color: #F7F7F7;
+    font-size: 30px ;
+  
+  }
+  #drivers{
+    list-style-type: none;
+    text-align: center;
+
+  }

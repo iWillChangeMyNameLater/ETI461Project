@@ -1,0 +1,35 @@
+body{
+    font: "Lucida Console";
+    list-style-type: none;
+}
+.navBar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #252422;
+    display: flex;
+   
+  }
+  
+  .navBar li {
+    float: left;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #F7F7F7;
+    width:20%;
+
+    font: "Lucida Console";
+  }
+  
+  .navBar a {
+    font: "Lucida Console";
+    display: block;
+    color: #F7F7F7;
+    text-align: center;
+    margin-top: 10px;
+    padding: 3% 3%;
+    text-decoration: none;
+   
+  }
+  
+ 

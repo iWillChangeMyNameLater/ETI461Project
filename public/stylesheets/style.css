@@ -1,0 +1,52 @@
+body {
+  font: 44px "Copperplate";
+  color: #FFD166;
+  background-color: #00A9A5;
+}
+
+a {
+  color: #FFD166;;
+  text-decoration: none;
+  background-color: #00A9A5;
+  padding: 0%;
+}
+
+#Form {
+  display: block;
+  text-align: center;
+  background-color: #00A9A5;
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+
+}
+#login{
+  display: inline-block;
+  margin-right: auto;
+  text-align: center;
+  margin-left: auto;
+  background-color: #274156;
+  padding-bottom: 10%;
+  padding-top: 5%;
+  height: 25%;
+
+
+}
+.e {
+  width: 50%;
+  
+  text-decoration: none;
+}
+.link{
+  display: block;
+  text-decoration: none;
+}
+ul{
+list-style: none;
+justify-content: space-around;
+text-decoration: none;
+}
+li{
+  text-decoration: none;
+  color: #FFD166;
+}

@@ -1,0 +1,66 @@
+body{
+    font: "Lucida Console";
+    list-style-type: none;
+    background-image: url("../images/homepage.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.navBar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #252422;
+    display: flex;
+   
+  }
+  
+  .navBar li {
+    float: left;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #F7F7F7;
+    width:20%;
+
+    font: "Lucida Console";
+  }
+  
+  .navBar a {
+    font: "Lucida Console";
+    display: block;
+    color: #F7F7F7;
+    text-align: center;
+    margin-top: 10px;
+    padding: 3% 3%;
+    text-decoration: none;
+   
+  }
+  .welcome{
+    background-color: #252422;
+    width: 40%;
+    height: 300px;
+    text-align: center;
+    margin-top: 5%;
+  }
+  #page{
+    color: #F7F7F7;
+    font: "Lucida Console";
+    width: 60%;
+    height: 50%;
+    display: inline-block;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #F7F7F7;
+    margin-right: auto;
+    text-align: center;
+    margin-left: auto;
+    margin-top: 10%;
+    
+
+  }
+  #p{
+    margin-top: 3%;
+    text-align: center;
+    font-size: 50px;
+  }
+ 
