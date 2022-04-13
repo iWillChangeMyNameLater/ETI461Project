@@ -35,7 +35,7 @@ function getRides(){
                 var name = data[i].driver_name;
                 //var phone= driver.driver_phone;
                 var rate = data[i].driver_rating;
-            driver.innerText = name+" "+rate;
+            driver.innerText = "Driver Name: "+name+" Driver Rating "+rate;
             driver.value = data[i].driver_name;
             driver.id = i;
             document.getElementById("drivers").appendChild(driver);

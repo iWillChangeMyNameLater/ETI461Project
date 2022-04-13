@@ -23,7 +23,7 @@ function veiwRides(){
                 var cost = data[i].ride_cost;
                 var distance = data[i].ride_distance
                 //var phone= driver.driver_phone;
-            ride.innerText = "Pick-Up Location: "+pl+"\n"+"Drop-Off Location: "+dl+"\n"+"Cost: " +cost+"\n"+"Distance: "+distance;
+            ride.innerText = "Pick-Up Location: "+pl+"\n"+"Drop-Off Location: "+dl+"\n"+"Cost: " +cost+"\n"+"Distance: "+distance +" miles";
             
             document.getElementById("rideList").appendChild(ride);
               }

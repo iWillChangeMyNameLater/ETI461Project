@@ -1,6 +1,12 @@
 body{
     font: "Lucida Console";
     list-style-type: none;
+    background-image: url("../images/viewRides.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  
+  
 }
 .navBar ul {
     list-style-type: none;
@@ -32,4 +38,28 @@ body{
    
   }
   
- 
+ #rideList{
+  color: #F7F7F7;
+  background-color: #252422;
+  width: 25%;
+  margin: auto;
+  text-align: center;
+
+ }
+ #rideList li{
+  list-style-type: none
+ }
+
+ #Welcome{
+  font-size: 40px;
+  text-align: center;
+
+}
+#getRides{
+ display: block;
+ font-size: 32px;
+ height: 40px;
+width: 20%;
+ margin: auto;
+
+}

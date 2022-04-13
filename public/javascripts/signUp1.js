@@ -5,7 +5,7 @@ document.getElementById("Form").addEventListener("submit", cusInfo);
 function cusInfo(){
     //preventDefault();
     //window.location.replace("/SignUp.html");
-    formData= {card: document.getElementById('cardNum').value, csv: document.getElementById('csv').value,cardName: document.getElementById('cardName').value, email: document.getElementById('email').value, password: document.getElementById('password').value, name: document.getElementById('name').value, address: document.getElementById('address').value, phone: document.getElementById('phone').value,rate: document.getElementById('rate').value };
+    formData= {card: document.getElementById('cardNum').value, csv: document.getElementById('csv').value,cardName: document.getElementById('cardName').value, email: document.getElementById('email').value, password: document.getElementById('password').value, name: document.getElementById('name').value, address: document.getElementById('address').value, phone: document.getElementById('phone').value};
     $.ajax({
         method: 'post',
        url: '/cusSignUp',

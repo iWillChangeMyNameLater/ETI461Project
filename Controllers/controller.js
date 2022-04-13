@@ -209,7 +209,7 @@ exports.signUp1=(req,res)=>{
   var password= req.body.password;
   var adress = req.body.address;
   var phone = req.body.phone;
-  var rate = req.body.rate;
+  var rate = 5;
   var id = 0;
 console.log(card);
   client.query('select * From Customers WHERE Customer_email = $1',[email],(err,results)=>{

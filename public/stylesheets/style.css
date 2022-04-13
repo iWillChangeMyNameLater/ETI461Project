@@ -1,20 +1,25 @@
 body {
   font: 44px "Copperplate";
-  color: #FFD166;
-  background-color: #00A9A5;
-}
+  background-image: url("../images/login.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 
+}
+p{
+  color: #252422;
+}
 a {
-  color: #FFD166;;
+  color: #252422;
+  background-color: #F7F7F7;
   text-decoration: none;
-  background-color: #00A9A5;
   padding: 0%;
 }
 
 #Form {
+   color: #F7F7F7;
   display: block;
   text-align: center;
-  background-color: #00A9A5;
   text-decoration: none;
   width: 100%;
   height: 100%;
@@ -25,7 +30,7 @@ a {
   margin-right: auto;
   text-align: center;
   margin-left: auto;
-  background-color: #274156;
+  background-color: #252422;
   padding-bottom: 10%;
   padding-top: 5%;
   height: 25%;

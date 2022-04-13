@@ -66,3 +66,15 @@ body{
     text-align: center;
 
   }
+  #confirm{
+    margin: auto;
+    background-color: #252422;
+    width: 50%;
+    height:50%;
+    margin: auto;
+    color: #F7F7F7;
+    list-style-type: none;
+    text-align: center;
+    
+    
+  }

@@ -1,6 +1,11 @@
 body{
     font: "Lucida Console";
     list-style-type: none;
+    color: #252422;
+    background-image: url("../images/becomeDriver.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 .navBar ul {
     list-style-type: none;
@@ -33,6 +38,44 @@ body{
   }
   #Form{
     display: none;
+    background-color: #252422;
+    width: 50%;
+    height:70%;
+    margin: auto;
+    color: #F7F7F7;
+    text-align: center;
+    font-size: 30px;
+
+  }
+  #Form input {
+    width: 50%;
+    font: "Lucida Console";
+   
+
+  }
+  #list{
+    margin: auto;
+    background-color: #252422;
+    width: 50%;
+    height:50%;
+    margin: auto;
+    color: #F7F7F7;
+    list-style-type: none;
+    text-align: center;
+    
+    
   }
   
- 
+ #Welcome{
+   font-size: 40px;
+   text-align: center;
+
+ }
+ #check{
+  display: block;
+  font-size: 32px;
+  height: 40px;
+width: 20%;
+  margin: auto;
+
+ }
