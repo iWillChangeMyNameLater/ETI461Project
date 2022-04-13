@@ -6,7 +6,7 @@ body {
   background-size: cover;
 
 }
-p{
+#welcome{
   color: #252422;
 }
 a {
@@ -54,4 +54,7 @@ text-decoration: none;
 li{
   text-decoration: none;
   color: #FFD166;
+}
+#error{
+  color: #F7F7F7;
 }

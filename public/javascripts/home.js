@@ -24,10 +24,10 @@ function userLogin(){
            window.location.replace("/homepage.html")
            
           }
-          else {
-            var error = document.createElement("p")
-            error.innerText = "Login information incorrect";
-            document.body.appendChild(error);
+          if (data==false) {
+            var error = document.getElementById("error");
+            var errorMessage = document.createTextNode("Login Information Incorrect");
+            error.appendChild(errorMessage);
           }
         }
    });

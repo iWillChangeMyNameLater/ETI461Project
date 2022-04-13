@@ -11,6 +11,7 @@ function veiwRides(){
         url: '/getRides',
         data: cusID,
         success: function(data) { 
+            console.log(data);
            if(Array.isArray(data)== true){
             var rideList =document.getElementById("rideList");
             while(rideList.hasChildNodes()){
@@ -35,7 +36,7 @@ function veiwRides(){
             ride.innerText = "There Was An Error Please Try Again"
             document.getElementById("rideList").appendChild(ride);
            }
-           if(data == "no"){
+           if(data == "none"){
             var rideList =document.getElementById("rideList");
             var ride = document.createElement("li");
             ride.innerText = "You have No Rides To Display"

@@ -27,10 +27,9 @@ function cusInfo(){
             console.log("email");
           }
           if(data ==false){
-            var error = document.createElement("p")
-            error.innerText = "There was an error";
-            document.body.appendChild(error);
-            console.log("error");
+            var error = document.getElementById("error");
+            var errorMessage = document.createTextNode("There Was An Error Please Try Again");
+            error.appendChild(errorMessage);
           }
         }
         /*
